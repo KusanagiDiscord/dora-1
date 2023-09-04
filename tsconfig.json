@@ -1,0 +1,10 @@
+{
+    "extends": "@tsconfig/node20/tsconfig.json",
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "outDir": "./dist",
+        "module": "ESNext",
+        "esModuleInterop": true,
+        "lib": ["ES2015"]
+    }
+}

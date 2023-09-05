@@ -18,8 +18,10 @@
     },
     "dependencies": {
         "@discordjs/rest": "^2.0.1",
+        "@prisma/client": "^5.2.0",
         "discord.js": "^14.13.0",
-        "dotenv": "^16.3.1"
+        "dotenv": "^16.3.1",
+        "prisma": "^5.2.0"
     },
     "devDependencies": {
         "@tsconfig/node20": "^20.1.1",
@@ -30,8 +32,8 @@
         "husky": "^8.0.3",
         "lint-staged": "^14.0.1",
         "prettier": "^3.0.2",
-        "typescript": "^5.1.6",
         "rimraf": "^5.0.1",
-        "tsc-watch": "^6.0.4"
+        "tsc-watch": "^6.0.4",
+        "typescript": "^5.1.6"
     }
 }

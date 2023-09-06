@@ -7,7 +7,9 @@ import type ApplicationCommand from './templates/ApplicationCommand.js'
 import type Event from './templates/Event.js'
 import type MessageCommand from './templates/MessageCommand.js'
 import deployGlobalCommands from './deployGlobalCommands.js'
-const { TOKEN } = process.env
+const TOKEN = process.env.TOKEN
+
+console.log(TOKEN)
 
 await deployGlobalCommands()
 
